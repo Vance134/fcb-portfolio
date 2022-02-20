@@ -1,0 +1,55 @@
+** {
+	font-family: "Roboto"; cursive;
+}
+
+h1, h2 {
+	font-family: "Montserrat"; cursive;
+}
+
+img {
+	height: 100px;
+	weight: 100px;
+}
+#landing {
+	height:80vh;
+	display:-flex;
+	flex-direction:column;
+	justify-content: center;
+	aling-item:center;
+}
+
+
+.jumbotron{
+	background-color: transparent; 
+}
+
+#gallery{
+	height: 75vh;
+	display: flex;
+	align-item:center;
+	justify-content: center;
+	flex-direction:column;
+
+}
+
+ul{
+	list-style: none;
+	padding:0;
+}
+
+h2{
+	color:#007bff;
+}
+
+.tools{
+	padding:25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width:75px;
+	color: white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
